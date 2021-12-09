@@ -12,7 +12,7 @@ import {slideInAnimation} from './app.animation';
   animations:[slideInAnimation]
 })
 export class AppComponent {
-  pageTitle = 'Acme Product Management';
+  pageTitle = 'Angular Routing';
   loading=true;
 
   get isLoggedIn(): boolean {
